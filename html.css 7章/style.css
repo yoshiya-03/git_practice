@@ -1,0 +1,50 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+main {
+  width: 840px;
+  margin: 50px auto;
+}
+
+
+.main-visual {
+  height: 400px;
+  width: 100%;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+.header-main {
+  height: 400px;
+  width: 100%;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.header-text {
+  padding: 20px;
+}
+
+.web-box {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 0 0;
+}
+
+.web-item {
+  width: 840px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.main-text {
+  font-size: 15px;
+}

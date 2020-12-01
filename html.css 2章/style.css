@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header {
+  padding: 40px 0 40px 0;
+  color: orange;
+}
+
+body {
+  padding-left: 8px;
+}
